@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<user creator="ASH WARE, Inc." version="2.72.2.0">
+  <source_code_search />
+  <app_dimensions x="-8" y="-8" w="1936" h="1056" />
+  <splitter name="projectBtmSplitter" distance="682" total="942" orientation="horizontal" />
+  <splitter name="projectRhtSplitter" parent="projectBtmSplitter" order="1" distance="213" total="1920" orientation="vertical" />
+  <splitter name="editSplitter" parent="projectRhtSplitter" order="2" distance="827" total="1703" orientation="vertical" />
+  <splitter name="outputSplitter" parent="projectBtmSplitter" order="2" distance="1214" total="1920" orientation="vertical" />
+  <line_info_mgr />
+  <TabPage type="LogicAnalyzer" ctrl="output1TabControl">
+    <ScopeSettings selected_channel="3" selected_cursor="1" auto_scroll="True" first_chan="0" width="125" />
+    <ScopeTimes>
+      <LeftSide word_a="0" word_b="446" word_c="1256660796" />
+      <Width word_a="0" word_b="797" word_c="2675737519" />
+      <LeftCursor word_a="0" word_b="722" word_c="1051239130" />
+      <RightCursor word_a="0" word_b="723" word_c="1638625776" />
+    </ScopeTimes>
+    <ClocksTimeOptions />
+    <TimeDisplayOptions />
+    <ThreadGroups>
+      <Host index="0" group_a="0" group_b="0" group_c="0" group_d="0" group_e="0" group_f="0" group_g="0" group_h="0" />
+      <eTPU_A index="1" group_a="1" group_b="2" group_c="4" group_d="8" group_e="16" group_f="32" group_g="64" group_h="128" />
+    </ThreadGroups>
+    <ScopeChannels>
+      <ScopeChan index="0" name="_ch4.out" alias="SPI1_SCLK" target_index="1" height="31" chan_state_mask="255" />
+      <ScopeChan index="1" name="_ch5.out" alias="SPI1_MOSI" target_index="1" height="31" chan_state_mask="255" />
+      <ScopeChan index="2" name="_ch3.in" alias="SPI1_MISO" target_index="1" height="31" chan_state_mask="255" />
+      <ScopeChan index="3" name="_ch1.out" alias="SPI1_SS" target_index="1" height="31" chan_state_mask="255" />
+    </ScopeChannels>
+  </TabPage>
+  <TabPage type="Breakpoint" is_closed="true" ctrl="projectTabControl" />
+  <TabPage type="TraceBuf" is_closed="true" ctrl="output2TabControl">
+    <Host />
+    <eTPU_A />
+  </TabPage>
+  <TabPage type="Source" ctrl="edit1TabControl" file="etpu_gct.c" top_line="34" start_pos="1209" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit1TabControl" file="etpu\etpucode\etec_spi_master.c" top_line="19" start_pos="1563" len="5" sel_text="#if 1" />
+  <TabPage type="Source" ctrl="edit1TabControl" file="etpu\spi\etpu_spi.c" top_line="0" start_pos="4563" len="0" sel_text="" />
+  <TabPage type="Script" ctrl="edit1TabControl" file="SPI_driver.Cpu32Command" top_line="0" start_pos="459" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit1TabControl" file="main.c" top_line="198" start_pos="8358" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit1TabControl" file="etpu\_utils\etpu_util_ext.c" top_line="1390" start_pos="44475" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit1TabControl" file="P:\200804_GeneralFunctions\etpu\_etpu_set\etpu_set.h" top_line="0" start_pos="1573" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit1TabControl" file="etpu\etpucode\etec_spi_slave.c" top_line="28" sel="true" start_pos="2182" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit2TabControl" file="include\mpc5554_vars.h" top_line="0" start_pos="870" len="0" sel_text="" />
+  <TabPage type="Html" ctrl="edit2TabControl" file="etpu\_etpu_set\etpu_set_ana.html" verticalScroll="0" />
+  <TabPage type="SettingsGrid" ctrl="edit2TabControl" sel="true" />
+  <TabPage type="Source" ctrl="edit2TabControl" file="etpu_gct.h" top_line="7" start_pos="3767" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit2TabControl" file="etpu\_etpu_set\etpu_auto_api.h" top_line="0" start_pos="734" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit2TabControl" file="etpu\spi\etpu_spi.h" top_line="3" start_pos="1339" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit2TabControl" file="etpu\_etpu_set\etpu_set_defines.h" top_line="21" start_pos="1532" len="0" sel_text="" />
+  <TabPage type="Source" ctrl="edit2TabControl" file="etpu\_utils\etpu_util_ext.h" top_line="0" start_pos="783" len="0" sel_text="" />
+  <TabPage type="RegisterWindow" ctrl="edit2TabControl" target_tag="eTpu" win_type="FTWT_CHANNEL" channel="4" target="eTPU_A" top_line="0" />
+  <TabPage type="Source" ctrl="edit2TabControl" file="etpu\_etpu_set\etpu_set_struct.h" top_line="154" start_pos="5487" len="9" sel_text="0x001c */" />
+  <TabPage type="Source" ctrl="edit2TabControl" file="etpu\_etpu_set\etpu_set.h" top_line="0" start_pos="430" len="0" sel_text="" />
+  <TabPage type="Output" ctrl="output1TabControl" sel="true" focus="true" />
+  <TabPage type="LocalVariable" ctrl="output1TabControl" target="0">
+    <Columns width_1="233" width_2="119" />
+  </TabPage>
+  <TabPage type="ChannelFrame" ctrl="output2TabControl" sel="true" target="1" channel="8">
+    <Columns />
+  </TabPage>
+  <TabPage type="Watch" ctrl="output2TabControl">
+    <Columns />
+    <SymbolList />
+  </TabPage>
+  <TabPage type="LocalVariable" ctrl="output2TabControl" target="1">
+    <Columns />
+  </TabPage>
+  <TabPage type="ChannelFrame" ctrl="output2TabControl" target="1" channel="-1">
+    <Columns />
+  </TabPage>
+  <TabPage type="ChannelFrame" ctrl="output2TabControl" target="1" channel="4">
+    <Columns width_1="215" />
+  </TabPage>
+  <TabPage type="Project" ctrl="projectTabControl" file="SPI_driver.FullSysIdeProj" sel="true" />
+  <TabPage type="RegisterWindow" ctrl="projectTabControl" target_tag="eTpu" win_type="FTWT_REGISTER" target="eTPU_A" top_line="0" />
+  <selected_project_node name="Target: eTPU_A" />
+  <!--Saved last-used directories-->
+  <last_dir type="SourceAsmGtm" dir="etpu\etpucode\" />
+  <last_dir type="SourceH" dir="etpu\etpucode\" />
+  <search_dialog sub_dirs="true" scripts="true">
+    <find val="_CPHA" />
+    <find val="_ExitThread" />
+    <find val="shift_direction" />
+    <find val="etpu_a_tcr1_freq" />
+    <replace val="_CPHA" />
+    <replace val="_ExitThread" />
+    <replace val="shift_direction" />
+    <replace val="etpu_a_tcr1_freq" />
+    <directory val="C:\GIT\SPI-eTPU\" />
+    <directory val="C:\GIT\ASHWARE\Tests\Drivers\ETpuSPI\" />
+    <file_types val="*.c,*.h" />
+    <file_types val="*.ETpuCommand" />
+    <file_types val="*.Vector" />
+  </search_dialog>
+  <workshops enabled="True" active_index="2" />
+  <ide_is_setting />
+  <step_asm_multiple val="10" />
+  <step_angle_teeth_multiple val="3" />
+  <is_goto_abs_angle val="false" />
+  <goto_absolute_angle cycles="1" degrees="2" hundredths="3" />
+  <goto_delta_angle cycles="4" degrees="5" hundredths="6" />
+  <goto_absolute_time ks="0" sec="0" ms="2" us="250" ns="0" />
+  <goto_delta_time ks="0" sec="0" ms="0" us="10" ns="0" />
+  <is_goto_abs_time val="false" />
+  <goto_line_num val="10" />
+  <make_node target="Host" file="obj\main.o" time="5249012880206727630">
+    <dependent_file file="main.c" time="5249012767689838505" />
+    <dependent_file file="..\ASHWARE\Builds\Include\isrLib.h" time="5248851424849560878" />
+    <dependent_file file="..\ASHWARE\Builds\Include\ScriptLib.h" time="5248851424849590795" />
+    <dependent_file file="etpu\_utils\etpu_util_ext.h" time="5248955758794395711" />
+    <dependent_file file="etpu\_utils\typedefs.h" time="5248929071635518578" />
+    <dependent_file file="include\etpu_struct.h" time="5246171774507387904" />
+    <dependent_file file="include\typedefs.h" time="5244979414647387904" />
+    <dependent_file file="etpu_gct.h" time="5249012868927314109" />
+    <dependent_file file="etpu\spi\etpu_spi.h" time="5249012761086522424" />
+    <dependent_file file="etpu\_utils\etpu_util_ext.h" time="5248955758794395711" />
+    <dependent_file file="SPI_driver.FullSysIdeProj" time="5249012880197925642" />
+  </make_node>
+  <make_node target="Host" file="obj\etpu_util_ext.o" time="5249012880215024936">
+    <dependent_file file="etpu\_utils\etpu_util_ext.c" time="5248955758794384818" />
+    <dependent_file file="etpu\_utils\etpu_util_ext.h" time="5248955758794395711" />
+    <dependent_file file="etpu\_utils\typedefs.h" time="5248929071635518578" />
+    <dependent_file file="include\etpu_struct.h" time="5246171774507387904" />
+    <dependent_file file="include\typedefs.h" time="5244979414647387904" />
+    <dependent_file file="SPI_driver.FullSysIdeProj" time="5249012880197925642" />
+  </make_node>
+  <make_node target="eTPU_A" file="etpu\_etpu_set\obj\etec_spi_master.eao" time="5249012881669735310">
+    <dependent_file file="etpu\etpucode\etec_spi_master.c" time="5249012881666727108" />
+    <dependent_file file="C:\Program Files (x86)\ASH WARE\eTPU Compiler V2_62D\Include\ETpu_Std.h" time="5248989327127387904" />
+    <dependent_file file="C:\Program Files (x86)\ASH WARE\eTPU Compiler V2_62D\Include\ETpu_Hw.h" time="5248989327127387904" />
+    <dependent_file file="C:\Program Files (x86)\ASH WARE\eTPU Compiler V2_62D\Include\ETpu_Lib.h" time="5248989327127387904" />
+    <dependent_file file="SPI_driver.FullSysIdeProj" time="5249012880197925642" />
+  </make_node>
+  <make_node target="eTPU_A" file="etpu\_etpu_set\obj\etec_spi_slave.eao" time="5249012881889130018">
+    <dependent_file file="etpu\etpucode\etec_spi_slave.c" time="5249012881886228281" />
+    <dependent_file file="C:\Program Files (x86)\ASH WARE\eTPU Compiler V2_62D\Include\ETpu_Std.h" time="5248989327127387904" />
+    <dependent_file file="C:\Program Files (x86)\ASH WARE\eTPU Compiler V2_62D\Include\ETpu_Hw.h" time="5248989327127387904" />
+    <dependent_file file="C:\Program Files (x86)\ASH WARE\eTPU Compiler V2_62D\Include\ETpu_Lib.h" time="5248989327127387904" />
+    <dependent_file file="SPI_driver.FullSysIdeProj" time="5249012880197925642" />
+  </make_node>
+  <make_node target="Host" file="obj\etpu_gct.o" time="5249012881900625254">
+    <dependent_file file="etpu_gct.c" time="5249012870015196648" />
+    <dependent_file file="include\typedefs.h" time="5244979414647387904" />
+    <dependent_file file="etpu_gct.h" time="5249012868927314109" />
+    <dependent_file file="etpu\_utils\etpu_util_ext.h" time="5248955758794395711" />
+    <dependent_file file="etpu\_utils\typedefs.h" time="5248929071635518578" />
+    <dependent_file file="include\etpu_struct.h" time="5246171774507387904" />
+    <dependent_file file="include\typedefs.h" time="5244979414647387904" />
+    <dependent_file file="etpu\_etpu_set\etpu_set.h" time="5249010230543473893" />
+    <dependent_file file="etpu\_etpu_set\etpu_set_defines.h" time="5249012881895933041" />
+    <dependent_file file="etpu\_etpu_set\etpu_set_scm.h" time="5249012881895973055" />
+    <dependent_file file="etpu\_etpu_set\etpu_set_idata.h" time="5249012881895903147" />
+    <dependent_file file="etpu\spi\etpu_spi.h" time="5249012761086522424" />
+    <dependent_file file="etpu\_utils\etpu_util_ext.h" time="5248955758794395711" />
+    <dependent_file file="include\mpc5554_vars.h" time="5249010228529541078" />
+    <dependent_file file="SPI_driver.FullSysIdeProj" time="5249012880197925642" />
+  </make_node>
+  <make_node target="Host" file="obj\etpu_spi.o" time="5249012881905073777">
+    <dependent_file file="etpu\spi\etpu_spi.c" time="5249012837534754090" />
+    <dependent_file file="etpu\_utils\etpu_util_ext.h" time="5248955758794395711" />
+    <dependent_file file="etpu\_utils\typedefs.h" time="5248929071635518578" />
+    <dependent_file file="include\etpu_struct.h" time="5246171774507387904" />
+    <dependent_file file="include\typedefs.h" time="5244979414647387904" />
+    <dependent_file file="etpu\_etpu_set\etpu_auto_api.h" time="5249011091300451383" />
+    <dependent_file file="etpu\_etpu_set\etpu_set_defines.h" time="5249012881895933041" />
+    <dependent_file file="etpu\_etpu_set\etpu_set_struct.h" time="5249012881895943082" />
+    <dependent_file file="etpu\spi\etpu_spi.h" time="5249012761086522424" />
+    <dependent_file file="etpu\_utils\etpu_util_ext.h" time="5248955758794395711" />
+    <dependent_file file="SPI_driver.FullSysIdeProj" time="5249012880197925642" />
+  </make_node>
+  <make_node target="Host" file="SPI_driver.Cpu32Command" time="5249012227169684301">
+    <dependent_file file="SPI_driver.Cpu32Command" time="5249012227169684301" />
+  </make_node>
+  <!--=======================================================-->
+  <!--======    START TARGET-SPECIFIC SETTINGS        =======-->
+  <target name="Host" />
+  <!--======    END TARGET-SPECIFIC SETTINGS          =======-->
+  <!--=======================================================-->
+  <!--=======================================================-->
+  <!--======    START TARGET-SPECIFIC SETTINGS        =======-->
+  <target name="eTPU_A" />
+  <!--======    END TARGET-SPECIFIC SETTINGS          =======-->
+  <!--=======================================================-->
+</user>
