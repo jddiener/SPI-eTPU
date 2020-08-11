@@ -16,7 +16,7 @@ rem During installation of the ASH WARE
 rem environment variable, 'DEV_TOOL_FULL_SYS_BIN', is set to point
 rem to the latest installed version
 set DEVTOOL=%DEV_TOOL_FULL_SYS_BIN%\FullSystemDevTool.exe
-if exist %DEVTOOL% goto CheckPathingSuccess
+if exist %DEVTOOL% goto FOUND_DEVTOOL
 
 echo .
 echo *************************************************
