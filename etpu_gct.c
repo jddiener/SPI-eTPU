@@ -63,9 +63,6 @@ struct etpu_config_t my_etpu_config =
   /* etpu_config.misc - MISC Compare Register*/
   FS_ETPU_MISC, /* MISC compare value from etpu_set.h */
   
-  /* etpu_config.scmoff - off SCM Register */
-  _SCM_OFF_OPCODE_,
-
   /* etpu_config.ecr_a - Engine A Configuration Register */
   FS_ETPU_ENTRY_TABLE /* entry table base address = shifted FS_ETPU_ENTRY_TABLE from etpu_set.h */
   | FS_ETPU_CHAN_FILTER_2SAMPLE /* channel filter mode = three-sample mode (CDFC=0) */
@@ -124,7 +121,10 @@ struct etpu_config_t my_etpu_config =
 
   /* etpu_config.wdtr_b - Watchdog Timer Register B (eTPU2 only) */
   FS_ETPU_WDM_DISABLED /* watchdog mode = disabled */
-  | FS_ETPU_WDTR_WDCNT(0) /* watchdog count = 0 */
+  | FS_ETPU_WDTR_WDCNT(0), /* watchdog count = 0 */
+
+  /* etpu_config.scmoff - off SCM Register */
+  _SCM_OFF_OPCODE_,
 };
 
 /*******************************************************************************
