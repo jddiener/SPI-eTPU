@@ -38,7 +38,7 @@
    SS       - slave_select_chan [optional]
 */
 
-#if 1
+#if 0
 /* beyond ETEC 2.62D, the below will need to be removed */
 typedef int8            int8_t;
 typedef int16           int16_t;
